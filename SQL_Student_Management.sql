@@ -43,13 +43,18 @@ VALUES
 
 INSERT INTO Enrollment (student_ID, course_ID)
 VALUES
-(209,1),
-(912,2),
-(917,3),
-(918,4),
-(920,5);
+(1,1),
+(2,2),
+(3,3),
+(4,4),
+(5,5);
 
-SHOW TABLES;
+SELECT * FROM Students;
+SELECT * FROM Courses;
+SELECT * FROM Enrollment;
+
+
+
 
 
 
